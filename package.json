@@ -1,0 +1,42 @@
+{
+  "name": "etimpedit",
+  "version": "1.0.0",
+  "description": "A MetaMask compatible keyring, for D'CENT hardware wallets",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BerthaRenner/etimpedit.git"
+  },
+  "keywords": [
+    "ethereum",
+    "vitae",
+    "dcent",
+    "D'CENT Hardware wallet",
+    "metamask"
+  ],
+  "author": "BayleeBahringer",
+  "license": "ISC",
+  "homepage": "https://github.com/BerthaRenner/etimpedit.git",
+  "resolutions": {
+    "mocha/mkdirp": "^0.5.1"
+  },
+  "dependencies": {
+    "dcent-web-connector": "^0.8.2",
+    "eth-sig-util": "^1.4.2",
+    "ethereumjs-tx": "^1.3.4",
+    "ethereumjs-util": "^5.1.5",
+    "events": "^2.0.0"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "babel-eslint": "^8.0.0",
+    "babel-runtime": "^6.26.0",
+    "chai": "^4.1.2",
+    "chai-spies": "^1.0.0",
+    "eslint": "^5.0.0",
+    "eslint-plugin-chai": "0.0.1",
+    "eslint-plugin-json": "^1.2.0",
+    "eslint-plugin-mocha": "^5.0.0",
+    "mocha": "^5.0.4"
+  }
+}
